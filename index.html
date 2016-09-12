@@ -381,9 +381,10 @@
                              <img src="img/portfolio/HCI/UX4.png" class="img-responsive img-centered" alt="">
                              <img src="img/portfolio/HCI/UX5.png" class="img-responsive img-centered" alt="">
                              <img src="img/portfolio/HCI/UX6.png" class="img-responsive img-centered" alt="">
-                            </p>
-                            
+                            </p>   
+                            <div class="button-align">
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -443,7 +444,9 @@
                              <img src="img/portfolio/Linkedin/4.png" class="img-responsive img-centered" alt="">
                              <img src="img/portfolio/Linkedin/5.png" class="img-responsive img-centered" alt="">
                             </p>
+                            <div class="button-align">
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -469,7 +472,9 @@
                             <p>
                              Check out my design portfolio on Behance: <a href="https://www.behance.net/darshanasivakumar">Darshana's Design Portfolio</a>. 
                             </p>
+                            <div class="button-align">
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -498,7 +503,9 @@
                          </br></br>
                              <img src="img/portfolio/Leadership/IdealLeader.png" class="img-responsive img-centered" alt="">
                             </p>
+                            <div class="button-align">
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -530,7 +537,9 @@
                              Here's a video of the product demo.
                              <iframe class="video" width="700" height="400" src="https://www.youtube.com/embed/BWFdTF_q-hc?rel=0" frameborder="0" allowfullscreen></iframe>
                             </p>
+                            <div class="button-align">
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -556,7 +565,9 @@
                             <p>
                              The intersection of computer science and art fascinates me a great deal. Here's some of my tech art-work : <a href="https://www.codecademy.com/Darshana10/codebits">Darshana's Codebits</a>.  
                             </p>
+                            <div class="button-align">
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -602,7 +613,9 @@
                             App creation process:
                             <img src="img/portfolio/Showcase/2.png" class="img-responsive img-centered" alt="">
                             </p>
+                            <div class="button-align">
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -671,7 +684,9 @@
                              I summarized our research using this infographic below.
                              <img src="img/portfolio/Survey/MarketingResearchInfograph-SiliconValleyPerks.png" class="img-responsive img-centered" alt=""> 
                             </p>
+                            <div class="button-align">
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -736,41 +751,44 @@
                                 </br>
                                 This feature enables users on Duolingo to play a translation game with friends and other users of the platform. The following are the requirements of the feature:
                                 </br>
-                                
+                                <ul>
                                 <li>A user can initiate a quiz in any language.</li>
                                 <li>User can choose the level of the quiz. There are three levels for each quiz - easy, medium and hard.</li>
                                 <li>User can choose to play the quiz with a known friend or any other user.</li>
-                                    -If user chooses to play with a known friend
-                                        (User selects specific friend for challenge,
-                                        Friend gets a notification about the request,
-                                        Friend can accept (now or later) or decline challenge)
-                                    </br>    
-                                    -If user chooses to play with any random user
+                                    <ul>
+                                    <li>If user chooses to play with a known friend
+                                        <ul>
+                                        <li>User selects specific friend for challenge</li>
+                                        <li>Friend gets a notification about the request</li>
+                                        <li>Friend can accept (now or later) or decline challenge</li>
+                                        </ul>
+                                    </li>
+                                    <li> 
+                                        If user chooses to play with any random user
                                         (User is matched to any user who has initiated quiz with same language and level)
-                                    </br>
-                                    - If no one is available to take up challenge, user is shown a message saying “We’ll notify you as soon as we have matched a player for you.”
+                                    </li>    
+                                    <li>
+                                        If no one is available to take up challenge, user is shown a message saying “We’ll notify you as soon as we have matched a player for you.”
                                         (In the case of the native mobile app, push notifications are sent to the user,
                                         In the case of the desktop version of the app, popup notifications are sent to the user)
-                                    - Each quiz has ten questions. 
+                                    </li>
+                                    <li>
+                                        Each quiz has ten questions. 
                                         (Questions are multiple choice questions. This is to remove discrepancy of differences in speed of typing errors while typing on different devices [phone may be tougher to type on than desktop]. Initially, questions will be curated by language specialists at Duolingo. Eventually, questions can be picked from translated article database. Difficulty level of questions can be determined by translation statistics for articles.)
+                                    </li>
+                                     </ul>   
                                 <li>There are five quizzes under each difficulty level for each language to begin with. More quizzes will be added eventually.</li>
                                 <li>A user can take each quiz only once, to ensure fairness of game.</li>
                                 <li>The structure and evaluation of each quiz is as follows:</li>
-                                    - Each question has a stipulated time in seconds. Time can vary from question to question. 
-                                </br>
-                                    - Every user is scored based on how many questions are answered correctly and the time taken to answer the question. Player who answers faster gets more points.
-                                </br>
-                                    - One user cannot proceed to the next question until the other user has also completed the question or the time limit for that question has been exceeded.
-                                </br>
-                                    - User can see his score as well as opponent’s score at each stage of the quiz.
-                                </br>
-                                    - Either user can exit the quiz at any time. If a user ends the quiz before completing it, the opponent is the default winner.
-                                </br>
-                                    - After game is over, user can challenge same user or some other user to another quiz.
-                                </br>
-                                    - Based on the number of quizzes a user wins, user receives virtual trophies.
-                                
-
+                                    <ul>
+                                    <li>Each question has a stipulated time in seconds. Time can vary from question to question.</li> 
+                                    <li>Every user is scored based on how many questions are answered correctly and the time taken to answer the question. Player who answers faster gets more points.</li>
+                                    <li>One user cannot proceed to the next question until the other user has also completed the question or the time limit for that question has been exceeded.</li>
+                                    <li>User can see his score as well as opponent’s score at each stage of the quiz.</li>
+                                    <li>Either user can exit the quiz at any time. If a user ends the quiz before completing it, the opponent is the default winner.</li>
+                                    <li>After game is over, user can challenge same user or some other user to another quiz.</li>
+                                    <li>Based on the number of quizzes a user wins, user receives virtual trophies.</li>
+                                   </ul>
                                    </br></br>
                                    <b>Mockups</b>
                                    </br>
@@ -779,7 +797,9 @@
                                    <img src="img/portfolio/quiz/6.png" class="img-responsive img-centered" alt=""> 
                                 </ul>
                                 </p>
-                                <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            <div class="button-align">
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            </div>
                             </div>
                         </div>
                     </div>
